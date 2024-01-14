@@ -3,7 +3,7 @@ import pandas as pd
 import os
 import plotly.graph_objects as go
 
-data = pd.read_excel("Project/data_streamlit.xlsx", sheet_name=None)
+data = pd.read_excel("data_streamlit.xlsx", sheet_name=None)
 
 st.set_page_config(page_title='WSB Quickreview', page_icon=":rocket:")
 
